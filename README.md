@@ -15,13 +15,15 @@ The repository contains:
 
 -   The function WindToBridgeBase, which projects the horizontal wind field (u,v) onto the structural elements. This leads to a wind field (vx0,vy0). The name of the function "WindToBridgeBase" comes from the fact that it was first applied for the case of a horizontal bridge deck.
 
- -   The function frictionVelocity, which estimate the friction velocity from the simulated velocity histories.
+-   The function PlotWindProjection, which shows the wind speed components (u,v) and (ux0,vy0) in the wind-based coordinate system and the structure-based coorindate system
+
+-   The function frictionVelocity, which estimate the friction velocity from the simulated velocity histories.
  
- -   The function plotSPectra, which compares the target and simulated velocity spectra.
+-   The function plotSPectra, which compares the target and simulated velocity spectra.
  
- -  The function coherence, which provides the co-coherence and quad-coherence estimates.
+-  The function coherence, which provides the co-coherence and quad-coherence estimates.
  
- -   The functions plotCoh_diamond and plotQuadCoh_diamond, which are used in the tutorial only and compare the target and estimated co-coherence and quad-coherence, respectively
+-   The functions plotCoh_diamond and plotQuadCoh_diamond, which are used in the tutorial only and compare the target and estimated co-coherence and quad-coherence, respectively
 
 This is the first version of the submission. Some bugs may still be present. Any question or comment is welcome
 
