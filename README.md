@@ -1,4 +1,8 @@
 # Unfrozen skewed turbulence for wind loading on structures
+
+[![DOI](https://zenodo.org/badge/332502776.svg)](https://zenodo.org/badge/latestdoi/332502776)
+
+
 The present repository includes the Matlab source code used to generate skewed turbulence for wind loading on structures, as presented in  [1]. Topic of interests are: wind engineering, structural dynamics, random processes, structural analysis, boundary layer meteorology, atmospheric science (turbulence)
 
 ## Content
