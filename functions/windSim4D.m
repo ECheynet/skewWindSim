@@ -1,4 +1,41 @@
 function [u,v,w,newT,dx,dy,N] = windSim4D(f,Su,Sv,Sw,CoeffDecay,U,geometry,windDirection,varargin)
+% [u,v,w,newT,dx,dy,N] =
+% windSim4D(f,Su,Sv,Sw,CoeffDecay,U,geometry,windDirection,varargin) generate
+% a 4D turbulent wind field (3 spatial dimension, one temporal dimension)
+% using knowledge of the mean wind speed, one-point velocity spectra and
+% cross spectra as well as the coherence functions.  The simulation can relax
+% Taylor's hypothesis of frozen turbulence and model the yaw angle through a
+% complex-valued coherence function.
+%
+% Input:
+%    - f
+%    - Su
+%    - Sv
+%    - Sw
+%    - CoeffDecay
+%    - U
+%    - geometry
+%    - windDirection
+%    - varargin
+%        *
+%        *
+%        *
+%        *
+% Output:
+%    - u
+%    - v
+%    - w
+%    - newT
+%    - dx
+%    - dy
+%    - N
+%
+% References
+%
+% Authors: E. Cheynet, Last modified 13-09-2022
+
+%}
+
 
 % options: default values
 p = inputParser();
