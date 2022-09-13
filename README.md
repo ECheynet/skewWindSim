@@ -1,4 +1,4 @@
-# skewWindSim
+# Unfrozen skewed turbulence for wind loading on structures
 The present repository includes the Matlab source code used to generate skewed turbulence for wind loading on structures, as presented in  [1].
 
 ## Content
