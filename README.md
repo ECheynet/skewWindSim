@@ -27,4 +27,4 @@ This is the first version of the submission. Some bugs may still be present. Any
 
 ## References
 
-[1] Cheynet E, Daniottì N, Bogunović Jakobsen J, Snæbjörnsson J and Wang J. (2022) Unfrozen skewed turbulence for wind loading on structures. Accepted for publication in Applied Sciences
+[1] Cheynet E, Daniotti N, Bogunović Jakobsen J, Snæbjörnsson J and Wang J. (2022) Unfrozen skewed turbulence for wind loading on structures. Accepted for publication in Applied Sciences
