@@ -1,10 +1,15 @@
-function [geometry] = getRegularGrid(minZ,Zlim,Ylim,dy,dz)
+function [geometry,minZ] = getRegularGrid(minZ,Zlim,Ylim,dy,dz)
 
 z = [];
 y = [];
 
-
 minZ = max(1,minZ);
+
+if minZ-dz==0,
+    warning('lowest height identified as 0 m; minZ is set at minZ = min>+1 m')
+    minZ = minZ+1;
+end
+
 
 minY = -Ylim/2;
 Zlim = Zlim+ dz;
