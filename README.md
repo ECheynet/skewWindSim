@@ -13,9 +13,13 @@ The repository contains:
 
 -    A Matlab livescript **Documentation**.mlx showing the case of a Diamond geometry
 
+-    A Matlab livescript **regular_grid**.mlx showing the case of a regulat grid and data are saved in a format similar to windSimFast
+
 -    The Matlab function **windSim4D**, which generate the wind field on a 4D grid (3 spatial dimensions, one temporal one)
 
 -    The functions **getTargetSpectra**, which computes the 1-point auto and cross-spectral densities used as input
+
+-    The functions **getRegularGrid**, which setup the regular grid for the Example case 2.
 
 -    The function **getSamplingPara** that provides the time and frequency vector for the initialisation of the simulation
 
