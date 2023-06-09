@@ -35,8 +35,10 @@ The repository contains:
  
 -   The functions **plotCoh_diamond** and **plotQuadCoh_diamond**, which are used in the tutorial only and compare the target and estimated co-coherence and quad-coherence, respectively
 
+-  The function ** nearestneighbour.m** [2]
 This is the first version of the submission. Some bugs may still be present. Any question or comment is welcome
 
 ## References
 
 [1] Cheynet E, Daniotti N, Bogunović Jakobsen J, Snæbjörnsson J, Wang J. Unfrozen Skewed Turbulence for Wind Loading on Structures. Applied Sciences. 2022; 12(19):9537. https://doi.org/10.3390/app12199537 
+[2] Richard Brown (2023). nearestneighbour.m (https://www.mathworks.com/matlabcentral/fileexchange/12574-nearestneighbour-m), MATLAB Central File Exchange. Retrieved June 9, 2023. 
